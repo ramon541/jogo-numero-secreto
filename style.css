@@ -2,8 +2,9 @@
 
 :root {
     --font-family: 'Montserrat', sans-serif;
-    --bg-color: rgb(10, 161, 221);
-    --primary-color: #E8F9FD;
+    --bg-color: #0aa1dd;
+    --primary-color: #fde8e8;
+    --bg-color-gameover: #4e0000;
 }
 
 body {
@@ -58,5 +59,9 @@ h3 {
 }
 
 .btn-jogar:hover {
-    filter: drop-shadow(0px 0px 0.5rem rgb(0, 91, 128));
+    filter: drop-shadow(0px 0px 0.5rem rgb(0, 0, 0));
+}
+
+.game-over{
+    background-color: var(--bg-color-gameover);
 }
